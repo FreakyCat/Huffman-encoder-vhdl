@@ -1,0 +1,2 @@
+vhdl isim_temp "shift_component.vhd"
+vhdl isim_temp "shift_component_tb.vhd"

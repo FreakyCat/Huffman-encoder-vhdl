@@ -1,0 +1,1 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/dc_diff.vhi -module dc_diff -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work dc_diff.vhd 

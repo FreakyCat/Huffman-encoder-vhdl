@@ -1,0 +1,2 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/ram_mem.vhi -module ram_mem -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ram_memory.vhd 
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/ram_mem.vhi -module ram_mem -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ram_memory.vhd 

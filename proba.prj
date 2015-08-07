@@ -1,0 +1,3 @@
+vhdl work "shift_component.vhd"
+vhdl work "barrel_reg.vhd"
+vhdl work "proba.vhd"

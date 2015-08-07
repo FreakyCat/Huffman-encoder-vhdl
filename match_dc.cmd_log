@@ -1,0 +1,1 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/match_dc.vhi -module match_dc -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work match_dc.vhd 

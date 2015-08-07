@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="huffma_8_2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ac_coeff.vhi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ac_component.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ac_component.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ac_component.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ac_component.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ac_component_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ac_component_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ac_dc.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ac_dc.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ac_dc.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ac_dc.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="barrel_reg_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="barrel_reg_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="count_gener.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="count_gener.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="count_gener.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="count_gener.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="count_gener_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="count_gener_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="counter.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="counter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter_gen.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter_gen.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="counter_gen.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="counter_gen_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter_gen_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dc_coeff.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dc_coeff.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="dc_coeff.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dc_coeff.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dc_component.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dc_component.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="dc_component.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dc_component.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dc_component_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dc_component_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="dc_diff.vhi"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="dc_rom.vhi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fsm.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="fsm.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="fsm.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="fsm.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="huffman.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="huffman.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="huffman.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="huffman.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="huffman.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="huffman.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="huffman.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="huffman.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="huffman_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="huffman_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="huffman_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="huffman_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="huffman_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="match_dc.vhi"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="mux.vhi"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="proba.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="proba.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="proba.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="proba.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="proba_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ram_mem.vhi"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ram_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ram_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shift_component.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="shift_component.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="shift_component.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="shift_component_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shift_component_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="shift_component_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="shift_component_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1438963571" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963571" xil_pn:in_ck="6152484966222093798" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ac_coeff.vhd"/>
+      <outfile xil_pn:name="ac_coeff_tb.vhd"/>
+      <outfile xil_pn:name="ac_component.vhd"/>
+      <outfile xil_pn:name="ac_component_tb.vhd"/>
+      <outfile xil_pn:name="ac_dc.vhd"/>
+      <outfile xil_pn:name="barrel_reg.vhd"/>
+      <outfile xil_pn:name="barrel_shifter.vhd"/>
+      <outfile xil_pn:name="counter.vhd"/>
+      <outfile xil_pn:name="counter_gen.vhd"/>
+      <outfile xil_pn:name="counter_gen_tb.vhd"/>
+      <outfile xil_pn:name="counter_tb.vhd"/>
+      <outfile xil_pn:name="dc_coeff.vhd"/>
+      <outfile xil_pn:name="dc_component.vhd"/>
+      <outfile xil_pn:name="dc_component_tb.vhd"/>
+      <outfile xil_pn:name="dc_diff.vhd"/>
+      <outfile xil_pn:name="dc_rom.vhd"/>
+      <outfile xil_pn:name="fsm.vhd"/>
+      <outfile xil_pn:name="huffman.vhd"/>
+      <outfile xil_pn:name="huffman_tb.vhd"/>
+      <outfile xil_pn:name="match_dc.vhd"/>
+      <outfile xil_pn:name="match_dc_tb.vhd"/>
+      <outfile xil_pn:name="mux.vhd"/>
+      <outfile xil_pn:name="overflow_reg.vhd"/>
+      <outfile xil_pn:name="proba.vhd"/>
+      <outfile xil_pn:name="proba_tb.vhd"/>
+      <outfile xil_pn:name="ram_memory.vhd"/>
+      <outfile xil_pn:name="ram_tb.vhd"/>
+      <outfile xil_pn:name="shift_component.vhd"/>
+      <outfile xil_pn:name="shift_component_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963571" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8983533512523083952" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963571" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8827423573135115132" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963571" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4886072270249039378" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963571" xil_pn:in_ck="6152484966222093798" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ac_coeff.vhd"/>
+      <outfile xil_pn:name="ac_coeff_tb.vhd"/>
+      <outfile xil_pn:name="ac_component.vhd"/>
+      <outfile xil_pn:name="ac_component_tb.vhd"/>
+      <outfile xil_pn:name="ac_dc.vhd"/>
+      <outfile xil_pn:name="barrel_reg.vhd"/>
+      <outfile xil_pn:name="barrel_shifter.vhd"/>
+      <outfile xil_pn:name="counter.vhd"/>
+      <outfile xil_pn:name="counter_gen.vhd"/>
+      <outfile xil_pn:name="counter_gen_tb.vhd"/>
+      <outfile xil_pn:name="counter_tb.vhd"/>
+      <outfile xil_pn:name="dc_coeff.vhd"/>
+      <outfile xil_pn:name="dc_component.vhd"/>
+      <outfile xil_pn:name="dc_component_tb.vhd"/>
+      <outfile xil_pn:name="dc_diff.vhd"/>
+      <outfile xil_pn:name="dc_rom.vhd"/>
+      <outfile xil_pn:name="fsm.vhd"/>
+      <outfile xil_pn:name="huffman.vhd"/>
+      <outfile xil_pn:name="huffman_tb.vhd"/>
+      <outfile xil_pn:name="match_dc.vhd"/>
+      <outfile xil_pn:name="match_dc_tb.vhd"/>
+      <outfile xil_pn:name="mux.vhd"/>
+      <outfile xil_pn:name="overflow_reg.vhd"/>
+      <outfile xil_pn:name="proba.vhd"/>
+      <outfile xil_pn:name="proba_tb.vhd"/>
+      <outfile xil_pn:name="ram_memory.vhd"/>
+      <outfile xil_pn:name="ram_tb.vhd"/>
+      <outfile xil_pn:name="shift_component.vhd"/>
+      <outfile xil_pn:name="shift_component_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963582" xil_pn:in_ck="6152484966222093798" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-359938157560677999" xil_pn:start_ts="1438963571">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="huffman_tb_beh.prj"/>
+      <outfile xil_pn:name="huffman_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1438963582" xil_pn:in_ck="-6887045821613068392" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-9097825023129488865" xil_pn:start_ts="1438963582">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="huffman_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4566077032352933967" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4886072270249039378" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-2426328905547795835" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438891313" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5064038517943845732" xil_pn:start_ts="1438891313">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1438898845" xil_pn:in_ck="8738716206406747722" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-4873453104795116730" xil_pn:start_ts="1438898760">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="huffman.lso"/>
+      <outfile xil_pn:name="huffman.ngc"/>
+      <outfile xil_pn:name="huffman.ngr"/>
+      <outfile xil_pn:name="huffman.prj"/>
+      <outfile xil_pn:name="huffman.stx"/>
+      <outfile xil_pn:name="huffman.syr"/>
+      <outfile xil_pn:name="huffman.xst"/>
+      <outfile xil_pn:name="huffman_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

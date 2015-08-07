@@ -1,0 +1,5 @@
+vhdl work "match_dc.vhd"
+vhdl work "dc_rom.vhd"
+vhdl work "dc_coeff.vhd"
+vhdl work "counter.vhd"
+vhdl work "dc_component.vhd"

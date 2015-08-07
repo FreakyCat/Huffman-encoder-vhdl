@@ -1,0 +1,2 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/fsm.vhi -module fsm -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work fsm.vhd 
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/fsm.vhi -module fsm -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work fsm.vhd 

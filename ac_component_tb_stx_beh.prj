@@ -1,0 +1,5 @@
+vhdl isim_temp "ram_memory.vhd"
+vhdl isim_temp "counter_gen.vhd"
+vhdl isim_temp "ac_coeff.vhd"
+vhdl isim_temp "ac_component.vhd"
+vhdl isim_temp "ac_component_tb.vhd"

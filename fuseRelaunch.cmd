@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Workspace/Xlinx/huffma_8_2/huffman_tb_isim_beh.exe" -prj "D:/Workspace/Xlinx/huffma_8_2/huffman_tb_beh.prj" "work.huffman_tb" 

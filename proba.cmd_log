@@ -1,0 +1,1 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/proba.vhi -module proba -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work shift_component.vhd -lib work barrel_reg.vhd -lib work proba.vhd 

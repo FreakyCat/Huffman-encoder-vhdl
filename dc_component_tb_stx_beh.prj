@@ -1,0 +1,6 @@
+vhdl isim_temp "match_dc.vhd"
+vhdl isim_temp "dc_rom.vhd"
+vhdl isim_temp "dc_coeff.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "dc_component.vhd"
+vhdl isim_temp "dc_component_tb.vhd"

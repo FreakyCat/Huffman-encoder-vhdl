@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Workspace/Xlinx/huffma_8_2/huffman_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="huffman_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/huffman_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/rdy_in_huff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdy_in_huff</obj_property>
+      <obj_property name="ObjectShortName">rdy_in_huff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/cntr64" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cntr64[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cntr64[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/dc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dc[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/ac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ac[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/huff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">huff[15:0]</obj_property>
+      <obj_property name="ObjectShortName">huff[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/rdy_out_huff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rdy_out_huff</obj_property>
+      <obj_property name="ObjectShortName">rdy_out_huff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_rdy_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_rdy_in</obj_property>
+      <obj_property name="ObjectShortName">ac_com_rdy_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_rst</obj_property>
+      <obj_property name="ObjectShortName">ac_com_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_we_oe" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_we_oe[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_com_we_oe[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_com_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_codeword" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_codeword[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_com_codeword[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_codelen" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_codelen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_com_codelen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_com_rdy_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_com_rdy_out</obj_property>
+      <obj_property name="ObjectShortName">ac_com_rdy_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_overflow" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_overflow</obj_property>
+      <obj_property name="ObjectShortName">ac_overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/ac_input" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_input</obj_property>
+      <obj_property name="ObjectShortName">ac_input</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/q_gen1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">q_gen1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">q_gen1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_ac_component/overflow1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">overflow1</obj_property>
+      <obj_property name="ObjectShortName">overflow1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_fsm/cstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">cstate</obj_property>
+      <obj_property name="ObjectShortName">cstate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/huffman_tb/uut/Inst_fsm/nstate" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">nstate</obj_property>
+      <obj_property name="ObjectShortName">nstate</obj_property>
+   </wvobject>
+</wave_config>

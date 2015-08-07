@@ -1,0 +1,2 @@
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/ac_component.vhi -module ac_component -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ram_memory.vhd -lib work counter_gen.vhd -lib work ac_coeff.vhd -lib work ac_component.vhd 
+vhdtdtfi -prj huffma_8_2 -o D:/Workspace/Xlinx/huffma_8_2/ac_component.vhi -module ac_component -template D:/Xilinx/14.5/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ram_memory.vhd -lib work counter_gen.vhd -lib work ac_coeff.vhd -lib work ac_component.vhd 
